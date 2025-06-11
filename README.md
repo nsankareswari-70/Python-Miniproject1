@@ -77,3 +77,14 @@ Don't do it!
 Hello. I'm Sankari, it's nice to meet you!
 ```
 
+``` print a astrick triangle
+print("*******\n *****\n  ***\n   *")
+OUtput:
+
+*******
+ *****
+  ***
+   *
+
+```
+
