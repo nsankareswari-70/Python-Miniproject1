@@ -61,3 +61,19 @@ print(str(a) +" is a float")
 
 print('Hello. I\'m Sankari, it\'s nice to meet you!')
 ```
+```
+Output:
+abr
+rac
+cadabra
+welcome to the MagicWorld!
+!
+do
+it!
+Just
+Don't do it!
+<class 'float'>
+3.1456 is a float
+Hello. I'm Sankari, it's nice to meet you!
+```
+
