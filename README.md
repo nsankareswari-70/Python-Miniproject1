@@ -11,3 +11,8 @@ total=pasta+pasta_sauce+garlic+italianseasoning+artisanbaguetts+meatballs
 print(total)
 print(round(total,2))
 ```
+```sql
+Output:
+63.089999999999996
+63.09
+```
