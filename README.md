@@ -125,4 +125,20 @@ The Fahrenheit equivalent of 40 degrees Celsius is 104
 ```
 ```
 # Miles per gallon
+import random
+
+gallons = random.randint(10,25)
+miles = random.randint(200,400)
+print("Number of gallons: ",gallons)
+print("Number of miles:",miles)
+mpg=miles//gallons
+
+print("Milage the car gives is: ",mpg)
+```
+```
+Output:
+Number of gallons:  24
+Number of miles: 276
+Milage the car gives is:  11
+```
 
