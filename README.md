@@ -123,4 +123,6 @@ print("The Fahrenheit equivalent of "+ str(c)+ " degrees Celsius is "+ str(fahre
 Please enter an integer value for the Celsius temperature: 40
 The Fahrenheit equivalent of 40 degrees Celsius is 104
 ```
+```
+# Miles per gallon
 
