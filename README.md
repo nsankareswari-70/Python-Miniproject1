@@ -23,7 +23,7 @@ print(word[:3])
 print(word[2:5])
 print(word[4:])
 
-# string concatination
+# string Concatination
 word1= "welcome"
 word2= " to"
 word3= " the"
@@ -109,7 +109,7 @@ volume of the cylinder:251.2
 ```
 ```
 # Celsius to Fahrenheit
-c=int(input("Please enter a integer value for the Celsius temperature: "))
+c=int(input("Please enter an integer value for the Celsius temperature: "))
 
 def fahrenheit(celsius):
    F=round(float(1.8*celsius+32))
@@ -120,7 +120,7 @@ print("The Fahrenheit equivalent of "+ str(c)+ " degrees Celsius is "+ str(fahre
 ```
 ```
 # Output:
-Please enter a integer value for the Celsius temperature: 40
+Please enter an integer value for the Celsius temperature: 40
 The Fahrenheit equivalent of 40 degrees Celsius is 104
 ```
 
