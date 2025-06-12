@@ -78,7 +78,7 @@ Hello. I'm Sankari, it's nice to meet you!
 ```
 
 ```
-# print a asterisk triangle
+# print an asterisk triangle
 print("*******\n *****\n  ***\n   *")
 OUtput:
 
@@ -107,3 +107,20 @@ Enter the value for r:4
 Enter the value for h:5
 volume of the cylinder:251.2
 ```
+```
+# Celsius to Fahrenheit
+c=int(input("Please enter a integer value for the Celsius temperature: "))
+
+def fahrenheit(celsius):
+   F=round(float(1.8*celsius+32))
+   return(F)
+
+fahrenheit(c)
+print("The Fahrenheit equivalent of "+ str(c)+ " degrees Celsius is "+ str(fahrenheit(c)))
+```
+```
+# Output:
+Please enter a integer value for the Celsius temperature: 40
+The Fahrenheit equivalent of 40 degrees Celsius is 104
+```
+
