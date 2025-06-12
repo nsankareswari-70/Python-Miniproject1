@@ -88,4 +88,22 @@ OUtput:
    *
 
 ```
+```
+# Volume of a cylinder
+def vol(pi,r,h):
+    v=pi*r**2*h
+    return(v)
 
+pie=float(input("Enter the value for Pi:"))
+radius=int(input("Enter the value for r:"))
+height=int(input("Enter the value for h:"))
+
+print("volume of the cylinder:"+str(round(vol(pie,radius,height),2)))
+```
+```
+output:
+Enter the value for Pi:3.14
+Enter the value for r:4
+Enter the value for h:5
+volume of the cylinder:251.2
+```
