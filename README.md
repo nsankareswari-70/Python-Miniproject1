@@ -226,5 +226,22 @@ Fizz
 19
 Buzz
 ```
+```
+# Factorial of a number
+num=int(input("Enter a integer: "))
+init=num
+fact=1
+while(num!=0):
+    fact=fact*num
+    num=num-1
+print("Factorial of "+str(init)+" is",fact)
+
+```
+```
+# Output:
+Enter a integer: 8
+Factorial of 8 is 40320
+```
+
 
 
