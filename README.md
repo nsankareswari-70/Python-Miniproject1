@@ -141,4 +141,43 @@ Number of gallons:  24
 Number of miles: 276
 Milage the car gives is:  11
 ```
+```
+# Grade determiner
+score = int(input("Please enter the score:"))
+
+if score>=90:
+    print("The score is :",score)
+    print("The Grade is : A")
+else:
+      if score >=80:
+        print("The score is :" ,score)
+        print("The Grade is : B")
+      else:
+          if score >=70:
+            print("The score is: ",score)
+            print("The Grade is: C")
+          else:
+                if score >= 60:
+                    print("The score is: ",score)
+                    print("The Grade is: D")
+                else:
+                  print("The score is: ",score)
+                  print("The Grade is: F")
+
+
+
+```
+```
+# Output:
+Please enter the score:65
+The score is:  65
+The Grade is: D
+
+Please enter the score:100
+The score is : 100
+The Grade is : A
+
+```
+
+
 
