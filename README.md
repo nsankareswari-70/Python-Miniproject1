@@ -262,14 +262,19 @@ mixed_case="A Song of Ice and Fire"
 
 Use .isupper() to check if mixed_case is a string of all upper case letters.  print() the result.
 print(mixed_case.isupper())
+
 Use .islower() to check if mixed_case is a string of all lower case letters.  print() the result.
 print(mixed_case.islower())
+
 Change all of the letters in mixed_case to upper case letters using .upper() and print() the result.
 print(mixed_case.upper())
+
 Change all of the letters in mixed_case to lower case letters using .lower() and print() the result.
 print(mixed_case.lower())
+
 Use the .istitle() method to check if mixed_case is title case and print the result.
 print(mixed_case.istitle())
+
 Create a variable called title_case and assign it the result of .title() being called on mixed_case.
 title_case=mixed_case.title()
 print() title_case
