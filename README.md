@@ -304,3 +304,23 @@ f=c.isalpha()
 print(f)
 ```
 
+```
+# ljust(),rjust(),center(),replace()
+
+string1="Hello world"
+print(string1.ljust(20,'*'))
+print(string1.ljust(25,'*')+" Hello again!!")
+print(string1.rjust(25,'*'))
+print(string1.center(25,'*'))
+
+print("11111 I had an exciting trip!!!!1111".strip('1'))
+print("11111 I had an exciting trip!!!!1111".lstrip('1'))
+print("11111 I had an exciting trip!!!!1111".rstrip('1'))
+
+print("Good morning!!".replace('morning','afternoon'))
+
+```
+
+
+
+
