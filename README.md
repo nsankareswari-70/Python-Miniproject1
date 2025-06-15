@@ -320,6 +320,18 @@ print("11111 I had an exciting trip!!!!1111".rstrip('1'))
 print("Good morning!!".replace('morning','afternoon'))
 
 ```
+```
+# output
+Hello world*********
+Hello world************** Hello again!!
+**************Hello world
+*******Hello world*******
+ I had an exciting trip!!!!
+ I had an exciting trip!!!!1111
+11111 I had an exciting trip!!!!
+Good afternoon!!
+
+```
 
 
 
