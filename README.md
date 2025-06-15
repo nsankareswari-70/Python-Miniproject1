@@ -333,6 +333,43 @@ Good afternoon!!
 
 ```
 
+```
+Create a variable called string1 and assign it the string "North Dakota".
+string1="North Dakota"
+
+Call .rjust() on string1 with 17 as its argument and print() the result.
+print(string1.rjust(17))
+
+Call .ljust() on string1 with the arguments 17 and "*" then print() the result.
+
+print(string1.ljust(17,'*'))
+
+Create a variable called center_plus and assign it the result of .center() being called on the_string with 16 and "+" as arguments.
+Use print() to display the string assigned to center_plus.
+
+center_plus = string1.center(16,'+')
+print(center_plus)
+
+Call .lstrip() on string1 to remove "North" then print() the result.
+
+s2=string1.lstrip('North')
+print(s2)
+
+Call .rstrip() on center_plus with "+" as its argument and print() the result.
+
+s3=center_plus.rstrip('+')
+print(s3)
+
+Call .strip() on center_plus with "+" as its argument and print() the result.
+s4=center_plus.strip('+')
+print(s4)
+
+Call .replace() on string1 and replace "North" with "South".  print() the result.
+s5=string1.replace('North','South')
+print(s5)
+
+```
+
 
 
 
