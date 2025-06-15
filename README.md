@@ -370,6 +370,17 @@ print(s5)
 
 ```
 
+```
+#output
+
+     North Dakota
+North Dakota*****
+++North Dakota++
+ Dakota
+++North Dakota
+North Dakota
+South Dakota
+```
 
 
 
