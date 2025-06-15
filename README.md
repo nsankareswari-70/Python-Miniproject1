@@ -399,6 +399,34 @@ The given string is:Sankari
 The reverse string is :iraknaS
 
 ```
+```
+# counting words
+str1 = "Daisy teaches English."
+str2="Subjects – A noun, noun phrase or pronoun that does the action mentioned in the sentence. It mostly occurs at the beginning of the sentence. Predicates – The remaining part of the sentence. It begins with the verb."
+str3="Every new sentence should begin with a capital letter."
+
+def wordcount(sen):
+  wc=1
+  sandl=""
+  for i in sen:
+    if i.isalnum() or i.isspace() or i=='-' or i=="'":
+      sandl=sandl+i
+  for j in sandl:
+    if j==" ":
+      wc=wc+1
+  return(wc)
+
+
+print("Number of words in str1:"+str(wordcount(str1)))
+print("Number of words in str2:"+str(wordcount(str2)))
+print("Number of words in str3:"+str(wordcount(str3)))
+```
+```
+Number of words in str1:3
+Number of words in str2:38
+Number of words in str3:9
+```
+
 
 
 
