@@ -426,6 +426,29 @@ Number of words in str1:3
 Number of words in str2:38
 Number of words in str3:9
 ```
+```
+# Format() function:
+name=input("Please enter your name:")
+degree=input("Please enter your major:")
+job=input("Please enter your job")
+exp=input("Please enter your years of experience")
+
+print(name+" is majored in "+degree+" working as a "+job+" has "+exp+" of experience")
+# using Format() function
+print("{} is majored in {} working as a {} has {} of experience ".format(name,degree,job,exp))
+
+```
+```
+name=input("Please enter your name:")
+degree=input("Please enter your major:")
+job=input("Please enter your job")
+exp=input("Please enter your years of experience")
+
+print(name+" is majored in "+degree+" working as a "+job+" has "+exp+" of experience")
+# using Format() function
+print("{} is majored in {} working as a {} has {} of experience ".format(name,degree,job,exp))
+```
+
 
 
 
