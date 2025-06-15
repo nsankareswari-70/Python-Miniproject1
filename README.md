@@ -381,6 +381,24 @@ North Dakota*****
 North Dakota
 South Dakota
 ```
+```
+# String Reverse
+string1=input("Please enter the string: ")
+print("The given string is:"+string1)
+rev=""
+
+for i in range(len(string1)-1,-1,-1):
+  rev=rev+string1[i]
+print("The reverse string is :"+rev)
+```
+```
+#output:
+
+Please enter the string: Sankari
+The given string is:Sankari
+The reverse string is :iraknaS
+
+```
 
 
 
