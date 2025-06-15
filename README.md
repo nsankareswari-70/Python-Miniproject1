@@ -448,7 +448,14 @@ print(name+" is majored in "+degree+" working as a "+job+" has "+exp+" of experi
 # using Format() function
 print("{} is majored in {} working as a {} has {} of experience ".format(name,degree,job,exp))
 ```
-
+```
+Please enter your name:Sankari
+Please enter your major:M.C.A
+Please enter your jobData Analyst
+Please enter your years of experience3
+Sankari is majored in M.C.A working as a Data Analyst has 3 of experience
+Sankari is majored in M.C.A working as a Data Analyst has 3 of experience 
+```
 
 
 
