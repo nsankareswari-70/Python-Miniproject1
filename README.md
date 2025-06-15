@@ -441,8 +441,8 @@ print("{} is majored in {} working as a {} has {} of experience ".format(name,de
 ```
 name=input("Please enter your name:")
 degree=input("Please enter your major:")
-job=input("Please enter your job")
-exp=input("Please enter your years of experience")
+job=input("Please enter your job:")
+exp=input("Please enter your years of experience:")
 
 print(name+" is majored in "+degree+" working as a "+job+" has "+exp+" of experience")
 # using Format() function
@@ -451,8 +451,8 @@ print("{} is majored in {} working as a {} has {} of experience ".format(name,de
 ```
 Please enter your name:Sankari
 Please enter your major:M.C.A
-Please enter your jobData Analyst
-Please enter your years of experience3
+Please enter your job:Data Analyst
+Please enter your years of experience:3
 Sankari is majored in M.C.A working as a Data Analyst has 3 of experience
 Sankari is majored in M.C.A working as a Data Analyst has 3 of experience 
 ```
