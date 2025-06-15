@@ -245,7 +245,7 @@ Factorial of 8 is 40320
 
 ```
 # string Functions
-```
+
 string1="sankarinarayanan"
 string2="HOW ARE YOU?"
 s=string1.upper()
