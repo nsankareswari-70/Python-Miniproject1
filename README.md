@@ -551,6 +551,16 @@ print(artic_animals.pop())
 
 ```
 
+```
+Output:
+['penguin', 'elephant', 'polar bear', 'walrus', 'reindeer']
+['penguin', 'polar bear', 'walrus', 'reindeer']
+['penguin', 'polar bear', 'walrus', 'reindeer', 'artic fox']
+['penguin', 'polar bear', 'snowy owl', 'walrus', 'reindeer', 'artic fox']
+['artic fox', 'penguin', 'polar bear', 'reindeer', 'snowy owl', 'walrus']
+3
+walrus
+```
 
 
 
