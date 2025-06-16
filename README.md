@@ -728,5 +728,12 @@ print(internet_celebrities)
 print(internet_celebrities1)
 ```
 
+```
+# Output:
+{'DrDisrespect': 'YouTube', 'ZLaner': 'Facebook', 'Ninja': 'Mixer', 'shroud': 'Twitch'}
+{'DrDisrespect': 'YouTube', 'ZLaner': 'Facebook', 'Ninja': 'Mixer', 'shroud': 'Twitch'}
+{}
+{'DrDisrespect': 'YouTube', 'ZLaner': 'Facebook', 'Ninja': 'Mixer', 'shroud': 'Twitch'}
+```
 
 
