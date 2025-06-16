@@ -503,5 +503,19 @@ Print the slice [0.98, 8.76] from the variable you created in step 7.
 print(list3[0:2])
 
 ```
-
+```
+#output:
+True
+False
+list[[1, 4.316, True, 'Sankari', [50, 45, 30]]]
+False
+True
+[0, 2]
+14
+chair
+Most people own at least 2 chairs
+[8.76, 6.54, 4.32]
+[8.76, 6.54]
+[0.98, 8.76]
+```
 
