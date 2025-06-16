@@ -622,5 +622,34 @@ print(dict1.get("Promise if the Real","Key not found"))
 
 ```
 
+```
+# output:
+6
+Queen
+Bee Gees
+U2
+Michael Jackson
+The Beatles
+Bob Dylan
+
+
+Bohemian Rhapsody
+Stayin' Alive
+One
+Billie Jean
+Hey Jude
+Like A Rolling Stone
+
+
+Queen Bohemian Rhapsody
+Bee Gees Stayin' Alive
+U2 One
+Michael Jackson Billie Jean
+The Beatles Hey Jude
+Bob Dylan Like A Rolling Stone
+
+
+Key not found
+```
 
 
