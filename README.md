@@ -584,6 +584,43 @@ True
 True
 ```
 
+```
+1. create a variable and assign it the following dictionary:
+
+{"Queen": "Bohemian Rhapsody", "Bee Gees": "Stayin' Alive", "U2": "One", "Michael Jackson": "Billie Jean", "The Beatles": "Hey Jude", "Bob Dylan": "Like A Rolling Stone"}
+2. Make the dictionary span multiple lines so that the line the dictionary starts on is not too long.
+
+dict1={"Queen": "Bohemian Rhapsody",
+       "Bee Gees": "Stayin' Alive",
+       "U2": "One",
+       "Michael Jackson": "Billie Jean",
+       "The Beatles": "Hey Jude",
+       "Bob Dylan": "Like A Rolling Stone"}
+3. print the length of the dictionary.
+print(len(dict1))
+
+4. use the .keys() method and a for loop to get and print all of the keys from the dictionary on separate lines.
+
+for key in dict1.keys():
+    print(key)
+print("\n")
+
+5.  print all of the values from the dictionary using the .values() method.
+for value in dict1.values():
+        print(value)
+print("\n")
+
+6. use .items() with a for loop to iterate through and print all of the key value pairs from the dictionary.
+for i, j in dict1.items():
+    print(i, j)
+
+7. use the .get() method to check the dictionary for the key
+
+"Promise of the Real"
+and create a message that will print if the key is not found in the dictionary.
+print(dict1.get("Promise if the Real","Key not found"))
+
+```
 
 
 
