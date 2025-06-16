@@ -561,6 +561,29 @@ Output:
 3
 walrus
 ```
+```
+# Dictionaries
+
+1. create a variable and assign it a dictionary that has 5 key value pairs
+a={"fruit1":"apple","fruit2":"orange","fruit3":"Mango","fruit4":"pineapple","fruit5":"grapes"}
+
+2.print and access the value held at the third key in the dictionary
+print(a["fruit3"])
+
+3. use the in keyword to check if a key appears in the dictionary and print the result
+print("fruit2" in a)
+
+4.use not in to check if a key does not appear in the dictionary and print the result
+print("fruit8" not in a)
+
+```
+```
+# output:
+Mango
+True
+True
+```
+
 
 
 
